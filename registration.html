@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Validation.css" />
+    <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+          crossorigin="anonymous"
+        />
+    <title>Task</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="form">
+        <form id="user-form">
+          <label for="name">Name : </label><br />
+          <i class="fas fa-user"></i>
+          <input required type="text" name="name" id="name" />
+          <br />
+          <label for="email">Email : </label><br />
+          <i class="far fa-envelope"></i>
+          <input required type="email" name="email" id="email" />
+          <br />
+          <label for="password">Password : </label><br />
+          <i class="fas fa-lock"></i>
+          <input required type="password" name="password" id="password" />
+          <br />
+          <label for="dob">DOB : </label><br />
+          <input type="date" name="dob" id="dob" required />
+          <br />
+          <input
+            style="width: 30px"
+            type="checkbox"
+            name="acceptTerms"
+            id="acceptTerms"
+          />
+          <label for="acceptTerms">Accept terms & Conditions</label>
+          <br />
+          <input
+            style="background-color: rgb(19, 151, 19); color: white"
+            type="submit"
+            value="Submit"
+          />
+        </form>
+      </div>
+    </div>
+    <div style="margin-left:11cm">
+    <div id="entrytbale"></div>
+  </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
